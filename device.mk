@@ -467,3 +467,7 @@ PRODUCT_HOST_PACKAGES += \
 # WFD
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo
