@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_RMX1801.mk
+    $(LOCAL_DIR)/awaken_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_RMX1801-user \
-    cesium_RMX1801-userdebug \
-    cesium_RMX1801-eng
+    awaken_RMX1801-user \
+    awaken_RMX1801-userdebug \
+    awaken_RMX1801-eng
