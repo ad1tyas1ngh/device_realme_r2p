@@ -20,6 +20,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common AwakenOS stuff
 $(call inherit-product, vendor/awaken/config/common.mk)
+AWAKEN_BUILD_TYPE := OFFICIAL
+
+# GApps
+USE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
 # Inherit from Realme RMX1801
 $(call inherit-product, device/realme/RMX1801/device.mk)
